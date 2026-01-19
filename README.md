@@ -18,3 +18,5 @@ The codebase is organized into the following modules:
 5_CostEmission: Analyzes power-sector outcomes under alternative renewable and demand growth rates, including levelized cost of electricity (LCOE) and cumulative and committed emissions.
 
 We provide access to the full unit-level turnover model code. However, some model inputs are not publicly available, as they rely on technical attributes and emissions data derived from the GID dataset, which in turn incorporates proprietary databases from collaborators. These databases (e.g., WEPP) are subject to user license agreements that restrict public access.
+
+If you are looking for more details, please contact yanxz22@mails.tsinghua.edu.cn or dantong@tsinghua.edu.cn.
