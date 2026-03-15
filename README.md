@@ -1,7 +1,7 @@
 # Unit-level-Turnover-Model
-The repository contains the code for the data-driven complement to energy-emissions model developed in the paper "The race between renewable electricity and demand governs the future of fossil power".
+The repository contains the code for the data-driven complement to energy-emissions model developed in the paper "Rapid growth of electricity demand is forestalling phase-out of fossil generation".
 
-The model explicitly resolves unit-level fossil power plant dynamics to assess how alternative trajectories of renewable generation and electricity demand growth shape fossil capacity evolution, CCUS deployment, future emissions, and system costs.
+The model explicitly resolves unit-level fossil power plant dynamics to assess how alternative trajectories of renewable generation and electricity demand growth shape fossil capacity evolution, CCUS deployment, and committed emissions.
 
 The codebase is organized into the following modules:
 
@@ -13,9 +13,9 @@ The codebase is organized into the following modules:
 
 3_PPTurnover: Implements the unit-level turnover model, simulating future construction, retirement, and CCUS retrofitting of fossil power plants to quantify the impacts of renewable deployment and electricity demand growth.
 
-4_FleetAnalysis: Analyzes power-sector outcomes under alternative renewable and demand growth rates, including fossil power capacity dynamics and the scale of CCUS deployment.
+4_FleetAnalysis: Analyzes power-sector outcomes under alternative demand growth rates and fraction of renewable generation growth over electricity demand growth, including fossil power capacity dynamics and the scale of CCUS deployment.
 
-5_CostEmission: Analyzes power-sector outcomes under alternative renewable and demand growth rates, including levelized cost of electricity (LCOE) and cumulative and committed emissions.
+5_Emission: Analyzes fossil committed emissions under alternative demand growth rates and fraction of renewable generation growth over electricity demand growth.
 
 We provide access to the full unit-level turnover model code. However, some model inputs are not publicly available, as they rely on technical attributes and emissions data derived from the GID dataset, which in turn incorporates proprietary databases from collaborators. These databases (e.g., WEPP) are subject to user license agreements that restrict public access.
 
