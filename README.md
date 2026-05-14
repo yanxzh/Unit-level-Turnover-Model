@@ -47,11 +47,12 @@ The codebase is organized into the following modules:
 ## Instructions for use
 Future trajectories of sensitivity tests and llustrative unit-level dataset are provided in 1_SenScenario and 2_GetPPInfor, respectively.
 
-To run the unit-level turnover model (expected runtime: 1 minute):
+To run the unit-level turnover model for a single sensitivity test, with a demand growth rate of 4% yr⁻¹ and 112.5% of demand growth met by renewables, use:
 ```bash
 cd Unit-level-Turnover-Model/3_PPTurnover/scr
 python S2_RunAll.py
 ```
+The expected runtime for this test is approximately 1 minute.
 
 The data of fossil power capacity changes and CCUS deployment across sensitivity tests can be visualized using:
 ```bash
